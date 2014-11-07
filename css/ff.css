@@ -1,0 +1,20 @@
+html, body {
+    background:#fff;
+    color:#666;
+    font: normal 15px Roboto,arial,sans-serif;
+}
+
+a {
+    color:#2c77ba;
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration:underline;
+}
+
+a:hover {
+    color: #3399ff;
+    text-decoration:underline;    
+}
+
