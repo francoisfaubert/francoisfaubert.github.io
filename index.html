@@ -1,48 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>François Faubert</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="description" content="Fran&ccedil;ois Faubert is a full-stacked web developper from Montreal, Canada.">
-    <meta http-equiv="keywords" content="Francois Faubert, webdesign, online application, nerd, css, html, javascript, strata, themusictank">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>François Faubert</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="description" content="Fran&ccedil;ois Faubert is a full-stacked web developper from Montreal, Canada.">
+        <meta http-equiv="keywords" content="Francois Faubert, webdesign, developer, full-stack, css, html, javascript, strata, themusictank">
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto|Droid+Sans' rel='stylesheet' type='text/css'>
-    <link href="css/ff.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <header>
-        <h1>Fran&ccedil;ois Faubert</h1>
-        <p>I am a full-stacked web developper from Montreal. I specialize in building interfaces, backends and mobile applications using web technologies.</p>
-    	<p>My website is lackluster but that is because I am working on other things that are much more important to me.</p>
-    </header>
+        <!-- <link href='http://fonts.googleapis.com/css?family=Roboto|Droid+Sans' rel='stylesheet' type='text/css'> -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
-    <section>
-        <p>I have recently been working on two bigger projects:</p>
-        <ul>
-            <li><a href="http://strata-framework.com/">Strata</a> : A <abbr title="Model View Controller">MVC</abbr> framework for Wordpress. It allows for better code and easier maintenance in a professional setting.</li>
-            <li><a href="http://themusictank.com/">The Music Tank</a> : A tool music lovers can review music.</li>
-        </ul>
-    </section>
+        <link href="css/ff.css" rel="stylesheet" type="text/css">
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-1624062-3');
+        </script>        
+    </head>    
+    <body>
+        <div class="viewport flex align-bottom">
+            <div class="mask"><img src="imgs/spiral.svg"></div>        
+            <header class="centered-text">
+                <div class="header-content centered-margins">
+                    <img src="imgs/me.jpeg" class="my-face" alt="Francois Faubert" title="Francois Faubert">
+                    <h1>Hello, my name is Fran&ccedil;ois Faubert</h1>
+                    <p class="lead">I specialize in creating powerful, testable, website backends and responsive frontends application while improving and modernizing your development stack.</p>                
+                    <p>I am available for periodic contractual inquiries on small to medium sized mandates, for which you can contact me <a href="mailto:frank@francoisfaubert.com">by email</a>.</p>
+                </div>
+            </header>
+        </div>      
+        <section class="flex wrap justified-children container centered-margins">
+            <article>
+                <p>Here is a list of what I feel are the most notable projects I am investing myself into at the moment.</p>
+                <ul class="alternate-font">
+                    <li>
+                        <a href="http://blog.francoisfaubert.com">Blog</a>
+                        <p>The place where I share toughts on tech-related topics.</p>
+                    </li>
+                    <li>
+                        <a href="http://themusictank.com/">The Music Tank</a>
+                        <p>A tool I have created that allows for dynamic and social music reviewing.</p>
+                    </li>
+                    <li>
+                        <a href="http://strata-framework.com/">Strata</a>
+                        <p>
+                            A <abbr title="Model View Controller">MVC</abbr> framework for Wordpress that 
+                            allows for code that is easier to maintain within the blog engine.
+                        </p>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <p>Find me online at the following locations:</p>
+                <ul class="alternate-font">
+                    <li class="twitter"><a href="https://twitter.com/francoisfaubert/">@francoisfaubert</a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/francoisfaubert/">LinkedIn</a></li>
+                    <li class="github"><a href="https://github.com/francoisfaubert/">GitHub</a></li>
+                    <li class="bandcamp"><a href="https://francoisfaubert.bandcamp.com/">Bandcamp</a></li>
+                </ul>
+            </article>
+        </section>
 
-    <section>
-	   <p>I can be found over on the usual places:</p>
-    	<ul>
-            <li class="twitter"><a href="http://www.twitter.com/francoisfaubert/">@francoisfaubert</a></li>
-            <li class="linkedin"><a href="http://www.linkedin.com/profile/view?id=35580382">LinkedIn</a></li>
-            <li class="github"><a href="http://www.github.com/francoisfaubert/">GitHub</a></li>
-        </ul>
-    </section>
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-1624062-3']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-</body>
+        <footer class="centered-margins alternate-font centered-text">
+            <p>This website uses a modified version of an image <a href="https://www.freepik.com/free-vector/abstract-vector-mesh-background-chaotically-connected-points-and-polygons-flying-in-space-flying-debris-futuristic-technology-style-card-lines-points-circles-and-planes-futuristic-design_1283675.htm" target="_blank" rel="noopener nofollow">designed by Freepik</a>.</p>
+        </footer>
+    </body>
 </html>
