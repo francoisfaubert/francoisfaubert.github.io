@@ -84,7 +84,7 @@ a:hover {
     transition: transform 1s linear;
     transform-style: preserve-3D;
     opacity: .5;    
-    animation: rotate-world 280s infinite;
+    animation: rotate-world 350s infinite;
 }
 
 @keyframes rotate-world  {
