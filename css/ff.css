@@ -178,6 +178,13 @@ li {
     }
 }
 
+.higher-bg-layer {
+    background: #091527;
+    position: relative;
+    z-index: 3;
+    padding: 1px 0 0;
+}
+
 
 /* FOOTER */
 /* ------ */
